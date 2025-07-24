@@ -1,0 +1,21 @@
+apply plugin: 'com.android.library'
+
+android {
+    namespace 'org.opencv'  
+    compileSdkVersion 33
+    
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 33
+    }
+    
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['native/libs']
+            java.srcDirs = ['java/src']
+            aidl.srcDirs = ['java/src']
+            res.srcDirs = ['java/res']
+            manifest.srcFile 'java/AndroidManifest.xml'
+        }
+    }
+}

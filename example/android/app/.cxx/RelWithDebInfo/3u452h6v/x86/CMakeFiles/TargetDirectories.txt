@@ -1,0 +1,2 @@
+C:/Development/Projects/api.video-flutter-live-stream/example/android/app/.cxx/RelWithDebInfo/3u452h6v/x86/CMakeFiles/edit_cache.dir
+C:/Development/Projects/api.video-flutter-live-stream/example/android/app/.cxx/RelWithDebInfo/3u452h6v/x86/CMakeFiles/rebuild_cache.dir

@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:apivideo_live_stream/apivideo_live_stream.dart';
 import 'package:apivideo_live_stream_example/settings_screen.dart';
 import 'package:apivideo_live_stream_example/types/params.dart';
@@ -63,7 +65,6 @@ class _LiveViewPageState extends State<LiveViewPage>
     _controller.initialize().catchError((e) {
       showInSnackBar(e.toString());
     });
-
     super.initState();
   }
 
@@ -161,7 +162,9 @@ class _LiveViewPageState extends State<LiveViewPage>
                       padding: const EdgeInsets.all(1.0),
                       child: Center(
                         child: ApiVideoCameraPreview(
-                            controller: _controller, enableZoomOnPinch: true),
+                          controller: _controller,
+                          enableZoomOnPinch: true,
+                        ),
                       ),
                     ),
                   ),

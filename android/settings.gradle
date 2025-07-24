@@ -1,1 +1,3 @@
 rootProject.name = 'apivideo_live_stream'
+include ':opencv'
+project(':opencv').projectDir = new File(settingsDir, 'opencv')

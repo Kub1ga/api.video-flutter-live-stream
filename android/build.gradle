@@ -35,8 +35,16 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 21
+        minSdkVersion 24
     }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['src/main/jniLibs']
+            java.srcDirs = ['src/main/java']
+        }
+    }
+
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8

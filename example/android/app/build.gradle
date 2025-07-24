@@ -31,7 +31,7 @@ android {
 
     defaultConfig {
         applicationId "video.api.flutter.livestream.example"
-        minSdkVersion 21
+        minSdkVersion 24
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
@@ -63,4 +63,8 @@ flutter {
 }
 
 dependencies {
+    implementation project(':wakelock_plus')
+    implementation project(':native_device_orientation')
+    implementation project(':apivideo_live_stream')
+    implementation project(':package_info_plus')
 }

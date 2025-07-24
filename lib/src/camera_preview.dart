@@ -1,7 +1,8 @@
+import 'dart:developer' as dev;
+
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 import 'package:native_device_orientation/native_device_orientation.dart';
-
 import 'controller.dart';
 import 'listeners.dart';
 

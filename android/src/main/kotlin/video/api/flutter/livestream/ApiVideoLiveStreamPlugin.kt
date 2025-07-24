@@ -15,7 +15,6 @@ import video.api.flutter.livestream.generated.LiveStreamHostApi
 import video.api.flutter.livestream.manager.InstanceManager
 import video.api.flutter.livestream.manager.PermissionsManager
 
-
 /** ApiVideoLiveStreamPlugin */
 class ApiVideoLiveStreamPlugin : FlutterPlugin, ActivityAware {
     private var pluginBinding: FlutterPluginBinding? = null
